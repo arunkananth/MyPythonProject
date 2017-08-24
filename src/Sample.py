@@ -20,4 +20,6 @@ df = df.cumsum()
 #df.plot();
 plt.ion()
 plt.plot(df)
+plt.savefig('tweet_by_prg_language_2', format='png')
+plt.show()
 #plt.legend(loc='best')
