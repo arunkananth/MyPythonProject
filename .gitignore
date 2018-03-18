@@ -102,3 +102,6 @@ ENV/
 
 # Key
 .key
+
+#configuration file
+config.py
