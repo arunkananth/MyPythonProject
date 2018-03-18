@@ -18,7 +18,7 @@ consumer_key = "OB48XMh4S1DEVJ4tTsphVg9px"
 consumer_secret = "qwivWEKmG22jAeXn7VxUr6ETxQOwuRG4KKZLk00DQFeYbWCfhv"
 
 
-#This is a basic listener that just prints received tweets to stdout.
+#This is a basic listener that  prints received tweets to stdout.
 class StdOutListener(StreamListener):
 
     def on_data(self, data):
