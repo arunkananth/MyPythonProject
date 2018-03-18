@@ -13,7 +13,7 @@ db = mysql.connector.connect(user='hdusr', password='mercury*88',
 #  you execute all the queries you need
 cur = db.cursor()
 
-# Use all the SQL you like
+# Use all the SQL you love
 cur.execute("SELECT min(company_id),company_nm FROM company group by company_nm")
 
 # print all the first cell of all the rows
