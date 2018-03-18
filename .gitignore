@@ -99,9 +99,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+<<<<<<< Upstream, based on origin/master
 
 # Key
 .key
 
 #configuration file
 config.py
+=======
+/twitterkey.key
+>>>>>>> a70dae3 commit 2
