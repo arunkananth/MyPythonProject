@@ -20,7 +20,6 @@ cur.execute("SELECT min(company_id),company_nm FROM company group by company_nm"
 for row in cur.fetchall():
     print row[0]
 
-
 df_mysql = pd.read_sql('select * from company;', con=db)    
 print ('loaded dataframe from MySQL. records:', len(df_mysql))
 
